@@ -13,7 +13,19 @@ body{
     max-width: 100%;
     max-height: 100%;
 }
+h1{
+    text-align: center;
+    font-size: 50pt;
+    padding: 20pt;
+}
 
+h2{
+    font-size: 30pt;
+}
+
+p{
+    font-size: 30pt;
+}
 .quiz-container {
     width: 100vw;
     height: 100vh;
@@ -33,15 +45,7 @@ body{
     align-items: center;
 }
 
-h1{
-    text-align: center;
-    font-size: 50pt;
-    padding: 20pt;
-}
 
-h2{
-    font-size: 30pt;
-}
 
 .btn{
     text-decoration: none;
