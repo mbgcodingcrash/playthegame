@@ -1,5 +1,5 @@
 :root {
-    background-color: rgb(37, 2, 70);
+    background-color: rgb(11, 126, 72);
 }
 
 *{
@@ -39,10 +39,15 @@ h1{
     padding: 20pt;
 }
 
+h2{
+    font-size: 30pt;
+}
+
 .btn{
     text-decoration: none;
     text-align: center;
-
+    color: rgba(0, 47, 255, 0.842);
+    padding: 2pt;
 }
 .hide{
     display: none;

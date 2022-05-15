@@ -1,27 +1,20 @@
+var startTime = 100;
+
+
+
+const questionBox =document.getElementById('question-box')
 const startButton = document.getElementById('startBtn')
-startButton.addEventListener('click', startGame)
+const question= document.getElementById('questions')
+startButton.addEventListener('click', startQuiz)
 
 
 
-function startGame(){
+function startQuiz(){
+    startButton.classList.add('hide')
+    questionBox.classList.remove('hide')
+    question.classList.remove('hide')
+
+    
 
 }
 
-function setNextQuestion(){
-
-}
-
-
-
-const questions = [
-    {
-        question: 'Is coding fun?'
-        answers: [
-            {text: 'Yes', correct: true }
-            {text: 'No', correct: false }
-            {text: 'Maybe?', correct: false }
-            {text: 'Definately Maybe', correct: false }
-        ]
-
-    }
-]
