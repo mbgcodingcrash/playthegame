@@ -5,13 +5,45 @@ const startButton = document.getElementById('startBtn')
 const questionEl= document.getElementById('questionLine')
 const answerBtnEL= document.getElementsByClassName('answer')
 
+
 startButton.addEventListener('click', startQuiz)
 
 //List of questions and answers
 const questionsArray = [ 
-    'Is coding fun?', 'What is your favorite language', 'Why are coding'
+        {
+        question: 'Is coding fun?', 
+        answers: [
+            {text: 'Yes'},
+            {text:'No'},
+            {text:'Maybe'},
+            {text:'Definately Not'}
+        ]},
+        {
+            question: 'What is your favorite language', 
+            answers:[
+            {text: 'Cheesecake'},
+            {text:'JavaScript'},
+            {text:'Pie'},
+            {text:'Definately Not Pie'}
+            ]},
+
+        {question: 'Why are coding',
+        answers: [
+            {text: 'Make all the Money'},
+            {text:'Lose all the Money'},
+            {text:'MaWahahahah Not'},
+            {text:'Definately Not'}
+        ]},
+        {
+            question: 'Did this make your head hurt?',
+            answers: [
+            {text: 'Yes'},
+            {text:'No'},
+            {text:'Maybe'},
+            {text:'Definately Not'}
+            ]   
+        }
 ]
-const answersArray= ['Yes','No','Maybe','Definately Not']
 
 
 
@@ -24,8 +56,8 @@ function startQuiz(){
 }
 
 function createNextQuestion(){
-        questionEl.innerText = questionsArray[0]
-        answerBtnEL.innerText= questionsArray.forEach 
+        questionEl.innerText =questionsArray
+        //answerBtnEL.innerText= questionsArray.forEach 
     }
 
 
