@@ -15,7 +15,7 @@
 
 
 
-<img src="./assets/pics/screenshot.png">
+<img src="./assets/screenshot.png">
 
 
 
